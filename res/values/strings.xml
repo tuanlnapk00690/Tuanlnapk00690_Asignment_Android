@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quản lý</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_activity__danh_sach_lop">Danh sách lớp</string>
+    <string name="title_activity_main_activity__qlsv">Danh sách sinh viên</string>
+    <string name="title_activity_danh_sach_lop">DanhSachLopActivity</string>
+    <string name="title_activity_home_">Trang chủ</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_user_manager_">Quản lý người dùng</string>
+    <string name="title_activity_about_me_">Thông tin nhà phát triển</string>
+    <string name="title_activity_about_app_">Thông tin ứng dụng</string>
+    <string name="title_activity_info_">Thông tin</string>
+    <string name="title_activity_conntact_">Liên hệ</string>
+    <string name="title_activity_share_">Chia sẻ liên kết</string>
+
+</resources>

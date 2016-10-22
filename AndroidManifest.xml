@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuanlnapk00690_asignment_android"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity_DanhSachLop"
+            android:label="@string/title_activity_main_activity__danh_sach_lop"
+            android:parentActivityName=".Home_Activity" >
+        </activity>
+        <activity
+            android:name=".MainActivity_QLSV"
+            android:label="@string/title_activity_main_activity__qlsv" 
+            android:parentActivityName=".Home_Activity">
+        </activity>
+        <activity
+            android:name=".DanhSachLopActivity"
+            android:label="@string/title_activity_danh_sach_lop"
+            android:parentActivityName=".Home_Activity" >
+        </activity>
+        <activity
+            android:name=".Home_Activity"
+            android:label="@string/title_activity_home_"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".UserManager_Activity"
+            android:label="@string/title_activity_user_manager_"
+            android:parentActivityName=".Home_Activity" >
+        </activity>
+        <activity
+            android:name=".AboutMe_Activity"
+            android:label="@string/title_activity_about_me_" >
+        </activity>
+        <activity
+            android:name=".AboutApp_Activity"
+            android:label="@string/title_activity_about_app_" >
+        </activity>
+        <activity
+            android:name=".Info_Activity"
+            android:label="@string/title_activity_info_"
+            android:parentActivityName=".Home_Activity" >
+        </activity>
+        <activity
+            android:name=".Conntact_Activity"
+            android:label="@string/title_activity_conntact_"
+            android:parentActivityName=".Home_Activity" >
+        </activity>
+        <activity
+            android:name=".Share_Activity"
+            android:label="@string/title_activity_share_" >
+        </activity>
+    </application>
+
+</manifest>

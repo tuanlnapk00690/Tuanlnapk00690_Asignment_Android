@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#005e80"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtThemLop"
+            style="@style/textslidemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="Thêm lớp"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtDanhSachLop"
+            style="@style/textslidemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách lớp"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtQLSV"
+            style="@style/textslidemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản lý sinh viên"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtLienHe"
+            style="@style/textslidemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Liên hệ"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View03"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtShare"
+            style="@style/textslidemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View04"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" >
+
+        <TextView
+            android:id="@+id/txtThongTin"
+            style="@style/textslidemenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thông tin"
+            android:layout_marginLeft="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/View05"
+        android:layout_width="wrap_content"
+        android:background="#ffffff"
+        android:layout_height="1dp" />
+
+</LinearLayout>
